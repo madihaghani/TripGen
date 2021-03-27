@@ -10,6 +10,10 @@ class Trip(Location):
         # for location in self.locations:
         pass
 
+    def generate_trip(self):
+        pass
+    
+
 
 
 if __name__ == '__main__':
