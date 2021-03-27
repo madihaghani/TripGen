@@ -8,6 +8,7 @@ class Location:
         self.query = query
         self.latitude, self.longitude, self.address = self.set_attributes(self.query)
 
+
     @staticmethod
     def set_attributes(query):
         #https://api.tomtom.com/search/2/geocode/Saginaw%20MI.json?&key=*****
