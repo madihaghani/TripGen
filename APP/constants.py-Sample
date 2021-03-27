@@ -1,0 +1,7 @@
+# IMPORTANT MUST READ
+
+
+# make a python file 'constants.py' similar to this file
+
+
+TOMTOM_API_KEY = 'some_key'

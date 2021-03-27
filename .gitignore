@@ -119,4 +119,7 @@ dmypy.json
 # MacOS Files
 .DS_Store
 
+# APP Specific files
+constants.py
+
 
