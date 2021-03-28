@@ -20,10 +20,12 @@ class Location:
                _json_data['results'][0]['position']['lon'], \
                _json_data['results'][0]['address']['freeformAddress']
 
+
     def __str__(self):
         return self.address
 
-
+    def __repr__(self):
+        return self.address + ', ' + str(self.latitude) + ', ' + str(self.longitude)
 
 
 
